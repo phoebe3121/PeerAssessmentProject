@@ -1,8 +1,9 @@
 ## This CodeBook describes the data stored in tidydata.txt
-	* tidydata.txt stores the mean value of 66 feature variables for each subject and each activity. These 66 features are extracted from the original feature data, and are those with either "mean()" or "std()" in their names. 
-	* tidydata.txt includes both train data and test data. We group the observations according to subject and activity, and then calculate the mean value of each of these 66 features and stored them in tidydata.txt. 
-	* There are 30 subjects and 6 activities, therefore, there are 180 rows in the tidydata.txt
-	* There are 68 variables in tidydata. variable 1 is subject number, variable 2 is activity name. Each of the rest variables stores the mean value of a feature, the name of which is the variable name. For example, the name of variable 3 is "tBodyAcc-mean()-x", it stores the mean value of "tBodyAcc-mean()-x" for a subject, which is specified in variable 1 and an activity, which is specified in variable 2.
+	
+* tidydata.txt stores the mean value of 66 feature variables for each subject and each activity. These 66 features are extracted from the original feature data, and are those with either "mean()" or "std()" in their names. 
+* tidydata.txt includes both train data and test data. We group the observations according to subject and activity, and then calculate the mean value of each of these 66 features and stored them in tidydata.txt. 
+* There are 30 subjects and 6 activities, therefore, there are 180 rows in the tidydata.txt
+* There are 68 variables in tidydata. variable 1 is subject number, variable 2 is activity name. Each of the rest variables stores the mean value of a feature, the name of which is the variable name. For example, the name of variable 3 is "tBodyAcc-mean()-x", it stores the mean value of "tBodyAcc-mean()-x" for a subject, which is specified in variable 1 and an activity, which is specified in variable 2.
 	"1" "Subject"
 	"2" "Activity"
 	"3" "tBodyAcc-mean()-X"
